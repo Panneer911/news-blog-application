@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 27%, 94%);
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+header h1{
+    background-color: blueviolet;
+    margin-left: 70%;
+    text-align: center;
+}
+
+.bg-1{
+    height: 50px;
+padding-bottom:1%;
+background-size: 20%;
+}
+
+.container > div {
+    height: 285px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.container a {
+    color: hwb(0 97% 0%);
+padding-top: 50%;
+    font-size:large;}
+
+
+
+.bg-1 {
+    background-image: url(https://cdn.pixabay.com/photo/2022/06/26/04/27/landscape-7284515_640.jpg );
+    background-size: cover;
+}
+.bg-2 {
+    background-image: url(https://www.audi.in/content/in/web/en/customer-area/news/jcr:content/content/teaser_news_1730525597.img.image.jpeg);
+    background-size: cover;
+}
+.bg-3 {
+    background-image: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/384000/384072.jpg);
+    background-size: cover;
+}
+.bg-4 {
+    background-image: url(https://static.toiimg.com/thumb/msid-111370284,imgsize-38280,width-400,resizemode-4/111370284.jpg);
+    background-size: cover;
+}
+.bg-5 {
+    background-image: url(https://www.livemint.com/lm-img/img/2024/07/07/600x338/Thane--India---November-07--2022--Maharashtra-Chie_1720348558580_1720348580694.jpg);
+
+    background-size: cover;}
+.bg-6 {
+    background-image: url(https://www.livemint.com/lm-img/img/2024/07/03/600x338/HDFC_Bank_1719982993688_1719982993981.jpg);
+
+    background-size: cover;}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: hsl(197, 72%, 44%);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+footer .read-more {
+    margin-top: 0;
+}
